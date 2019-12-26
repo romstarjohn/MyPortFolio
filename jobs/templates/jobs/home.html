@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+{% load static %}
+    <head>
+    <!-- Required meta tags-->
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="On CV of Romario Kaptue" name="description">
+        <meta content="Romario Kaptue" name="author">
+        <meta content="My Portfolio" name="keywords">
+
+        <!-- Title Page-->
+        <title>Homepage - My Portfolio</title>
+
+        <!-- Fontfaces CSS-->
+        <link href="{% static 'css/font-face.css'%}" media="all" rel="stylesheet">
+        <link href="{% static 'vendor/font-awesome/css/font-awesome.min.css'%}" media="all" rel="stylesheet">
+        <link href="{% static 'vendor/linearicons-free/css/linearicons-free.css'%}" media="all" rel="stylesheet">
+        <link href="{% static 'vendor/elegant-icons/css/elegant-icons.css'%}" media="all" rel="stylesheet">
+
+        <!-- Bootstrap CSS-->
+        <link href="{% static 'vendor/bootstrap/bootstrap.min.css'%}" media="all" rel="stylesheet">
+
+        <!-- Vendor CSS-->
+        <link href="{% static 'vendor/animate.css/animate.min.css'%}" media="all" rel="stylesheet">
+        <link href="{% static 'vendor/css-hamburgers/hamburgers.min.css'%}" media="all" rel="stylesheet">
+        <link href="{% static 'vendor/slick/slick.css'%}" media="all" rel="stylesheet">
+        <link href="{% static 'vendor/animsition/animsition.min.css'%}" media="all" rel="stylesheet">
+
+        <!-- Main CSS-->
+        <link href="{% static 'css/theme.css'%}" media="all" rel="stylesheet">
+
+        <!--Favicons-->
+        <link href="favicon.png" rel="shortcut icon">
+        <link href="apple-icon.png" rel="apple-touch-icon">
+        <link href="apple-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+        <link href="apple-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+    </head>
+    <body class="animsition page-wrapper">
+
+        <!-- header-->
+    <header class="header header-primary header-fixed js-header-bar d-md-block d-none">
+        <div class="container-fluid">
+            <div class="section-inner header-bar">
+                <div class="header-bar-logo">
+                    <a href="index.html">
+                        <img src="images/icons/logo.png" alt="Ora">
+                    </a>
+                </div>
+                <div class="header-bar-menu">
+                    <nav class="navbar-primary">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#intro">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">SERVICES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#resume">RESUME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects">WORKS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#blog">BLOG</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">CONTACT</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header class="header header-mobile js-header-bar-mobile d-md-none">
+        <div class="header-bar">
+            <div class="header-bar-logo">
+                <a href="index.html">
+                    <img src="images/icons/logo.png" alt="Ora">
+                </a>
+            </div>
+            <div class="header-bar-menu">
+                <button class="navbar-toggler hamburger" type="button" id="js-header-toggle">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </div>
+        </div>
+        <nav class="navbar-mobile navbar-primary">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#intro">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#resume">RESUME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">WORKS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">BLOG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- end header-->
+            <!-- Intro start-->
+    <section class="section section-intro js-intro" id="intro" data-intro-bg="{% static 'bewerbungsfoto.jpeg' %}" data-intro-layout="fullscreen">
+        <div class="container">
+            <article class="section-inner">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h3 class="intro-name">
+                            <span class="animated" data-intro-animate="fadeInRight" data-intro-delay="500">Hello Everybody!</span>
+                        </h3>
+                        <p class="intro-text">
+                            <span class="animated" data-intro-delay="1100" data-intro-animate="fadeInDown">
+                                I’m a master student and also a part time developer. I design Ecommerce website with wordpress and co. In my spares time, i concern myself with  Android App development with Java. </p>
+                        <img class="animated intro-sign" src="images/icons/ic-sign.png" alt="John Smith" data-intro-delay="2000" data-intro-animate="zoomIn">
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- Intro end-->
+
+      <!-- section projects-->
+    <section class="section section-projects bg-dark-1 p-t-110 p-b-90" id="projects">
+        <div class="container-fluid">
+            <div class="section-inner">
+                <h3 class="section-heading section-heading-light m-b-50">Featured Projects</h3>
+                <div class="row">
+
+                    {% for job in jobs_o.all %}
+                    <div class="col-lg-3 col-sm-6 wow zoomIn" data-wow-delay="0.2s" data-wow-duration="0.5s">
+                        <article class="card-primary card-project">
+                            <a class="card-link-overlay" data-target="#project-post" data-toggle="modal" href="#"></a>
+                            <figure class="card-figure">
+                                <img alt="Brand &amp; Strategy Contents" class="project-image img-fluid" src="{{job.image}}" />
+                            </figure>
+
+
+                            <header class="card-header">
+                                <h3 class="project-title">{{job.summary}}</h3>
+                                <ul class="project-subjects">
+                                    <li>
+                                        <a href="#">DESIGN</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">MARKETING</a>
+                                    </li>
+                                </ul>
+                            </header>
+                        </article>
+                    </div>
+
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section projects-->
+
+
+
+        <!-- Jquery JS-->
+    <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+    <!-- Bootstrap JS-->
+    <script src="{% static 'vendor/popper.js/popper.min.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap/bootstrap.min.js' %}"></script>
+    <!-- Vendor JS-->
+    <script src="{% static 'vendor/slick/slick.min.js' %}"></script>
+    <script src="{% static 'vendor/animsition/animsition.min.js' %}"></script>
+    <script src="{% static 'vendor/waypoints/jquery.waypoints.min.js' %}"></script>
+    <script src="{% static 'vendor/jquery.counterup/jquery.counterup.min.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap-progressbar/bootstrap-progressbar.min.js' %}"></script>
+    <script src="{% static 'vendor/wowjs/wow.min.js' %}"></script>
+    <script src="{% static 'vendor/validator/validator.min.js' %}"></script>
+    <script src="{% static 'js/config-contact.js' %}"></script>
+
+    <!-- Main JS-->
+    <script src="{% static 'js/global.js' %}"></script>
+
+    </body>
+</html>
